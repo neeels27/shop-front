@@ -1,14 +1,8 @@
 body {
     font-family: $mainFont;
     background-color: rgb(255, 255, 255);
-}
-
-p {
-    // font-size: 18px;
-    // vertical-align: text-top;
-    // // padding: 500px;
-    // display: inline-block ;
-    // vertical-align: middle;
+ 
+    
 }
 
 h1,
@@ -29,17 +23,9 @@ a {
 }
 
 .container{
-    // position:absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(0px);
-    //transform-box: ;
-     // width: 600px;
-     padding: 30px;
      box-sizing: border-box;
      border-radius: 15px;
      box-shadow: 0  15px 50px rgba(0,0,0,0.2);
-     //background-color: rgba(255, 255, 0, 0.774);
      background-image: -webkit-linear-gradient(rgba(251, 255, 0, 0.822),rgb(236, 232, 0),rgb(255, 217, 0),rgb(255, 217, 0),rgb(255, 217, 0),rgb(255, 174, 0)); 
      
 }
@@ -68,10 +54,43 @@ h6{
 }
 
 .pNum{
-    text-align: left;
+    text-align: center;
     font-family: $titleFont; 
+    font-size:21px;
 }
 
 .pMail{
+    text-align: center;
+    font-family: $titleFont;
+    font-size:21px;
 
+}
+
+.pEnt{
+    text-align: center;
+    font-family: $titleFont;
+    font-size:21px;
+}
+
+.textFR{
+    position:relative;
+    left: 190px;
+    top:-50px;
+}
+
+.Cristiano{
+    position:relative;
+    left:-220px;
+    top: 140px;
+}
+
+.textPT{
+    position:relative;
+    left:-530px;
+    top:-50px;
+}
+
+.imgLogo{
+    position: relative;
+    left:1px;
 }

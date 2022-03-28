@@ -4,9 +4,6 @@
     img {
          width: 30%;
          padding-left: 900px;
-        //  //padding-top: 0px;
-        //  padding-bottom: 1000px;
-        //  padding-right: 450px;
         
         }
      h4 {
@@ -24,34 +21,31 @@
         color:green;
     }
 
-    
-    // .container{
-    //     position:absolute;
-    //     top: 50%;
-    //     left:50%;
-    //     transform: translate(-50%,-50%);
-    //     width: 600px;
-    //     padding: 30px;
-    //     box-sizing: border-box;
-    //     border-radius: 10px;
-    //     box-shadow: 0  15px 50px rgba(0,0,0,0.2);
-    // }
+    .imgLogo{
+        position: relative;
+        left:1px;
+        size-adjust:20%;
+    }
 
-    // .squard{
-    //     width: 200px;
-    //     height: 200px;
-    //     background: 
-    //     url(https://pbs.twimg.com/media/E3w3FvkX0AI0sI8?format=jpg&name=4096x4096);
-    //     background-size: 100% 100%;
-    //     border-radius: 50%;
-    //     float: left;
-    //     shape-outside: circle();
-    //     margin:30px;
-
-    // }
     
 }
 
-.div__left{
-    float: left;
+
+.textFR{
+    position:relative;
+    left: 190px;
+    top:-50px;
 }
+
+.Cristiano{
+    position:relative;
+    left:-220px;
+    top: 140px;
+}
+
+.textPT{
+    position:relative;
+    left:-530px;
+    top:-50px;
+}
+

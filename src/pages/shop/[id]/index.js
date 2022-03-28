@@ -50,10 +50,7 @@ const Index = () => {
         <h1>{data.getProduct.title}</h1>
         <p className={styles.price}>{data.getProduct.price}</p>
         <p className={styles.description}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          exercitationem, enim magnam accusamus, repellat, laudantium quo
-          impedit veniam possimus odit rerum aspernatur omnis non hic fuga quae?
-          Eos, illo veniam!
+          Article du CR7 Store
         </p>
         <button
           className="btn btn-black"

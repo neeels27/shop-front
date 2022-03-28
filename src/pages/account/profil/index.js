@@ -12,7 +12,6 @@ import { updateUser } from "../../../graphql/mutations/users";
 const Index = () => {
   const [user, setUser] = useState({});
     const [success, setSuccess] = useState(false);
-    // const [updateUser] = useMutation(updateUser);
   const handleSubmit = (e) => {
     e.preventDefault();
     const token = localStorage.getItem("token");
