@@ -1,0 +1,77 @@
+body {
+    font-family: $mainFont;
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    // font-size: 18px;
+    // vertical-align: text-top;
+    // // padding: 500px;
+    // display: inline-block ;
+    // vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    padding: 30px;
+    font-family: $titleFont;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left,green,red, red,green,green);  
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    // position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(0px);
+    //transform-box: ;
+     // width: 600px;
+     padding: 30px;
+     box-sizing: border-box;
+     border-radius: 15px;
+     box-shadow: 0  15px 50px rgba(0,0,0,0.2);
+     //background-color: rgba(255, 255, 0, 0.774);
+     background-image: -webkit-linear-gradient(rgba(251, 255, 0, 0.822),rgb(236, 232, 0),rgb(255, 217, 0),rgb(255, 217, 0),rgb(255, 217, 0),rgb(255, 174, 0)); 
+     
+}
+
+.sousTitre{
+    font-size: 30px;
+    text-align: center;
+}
+img {
+     margin-right:auto;
+     margin-left:auto;
+     vertical-align: middle;
+}
+
+h5{
+    font-size:30px;
+    font-family: $titleFont;
+}
+
+h6{
+    font-size:21px;
+    font-family: $titleFont;   
+    vertical-align: middle;
+    
+    
+}
+
+.pNum{
+    text-align: left;
+    font-family: $titleFont; 
+}
+
+.pMail{
+
+}
